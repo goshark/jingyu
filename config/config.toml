@@ -1,0 +1,20 @@
+log-path = "./logs"
+client-name = "client"
+admin-name = "admin"
+upload-path = "./Uploads"
+# 客户端server配置
+[client]
+url-path = ""
+http-port = 9501
+
+
+# title设置
+[setting]
+    title = "配置管理中心"
+# 数据库配置
+[database]
+    [[database.default]]
+        type = "mysql"
+        link = "root:root@tcp(127.0.0.1:3306)/jingyu"
+       debug = true
+       prefix  = "dc_"
