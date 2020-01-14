@@ -15,8 +15,8 @@ import (
 
 const (
 	Token_Url = "https://openapi.baidu.com/oauth/2.0/token"
-	Api_Key = "U3lQjrvuxLtjWTdVGbeN2VN1"
-	Secret_Key= "ipCn3knW6uAFc8jdjwV6NQGhxwS7XYOa"
+	Api_Key = "U3lQjrvuxLtjTdVGbeN2VN1"
+	Secret_Key= "ipCn3knW6uAFc8jdwV6NQGhxwS7XYOa"
 	Convert_Url = "https://tsn.baidu.com/text2audio"
 	//App_ID = 17545700
 )
@@ -56,7 +56,7 @@ func getToken() interface{}{
 			"expires_in":2592000,
 			"refresh_token":"25.b7893774ae170a860aaea801e00967d4.315360000.1886641257.282335-17545700",
 			"scope":"audio_voice_assistant_get brain_enhanced_asr audio_tts_post public brain_all_scope picchain_test_picchain_api_scope wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian ApsMisTest_Test权限 vis-classify_flower lpq_开放 cop_helloScope ApsMis_fangdi_permission smartapp_snsapi_base iop_autocar oauth_tp_app smartapp_smart_game_openapi oauth_sessionkey smartapp_swanid_verify smartapp_opensource_openapi smartapp_opensource_recapi fake_face_detect_开放Scope",
-			"session_key":"9mzdWW2H1tCdeM6MCEY8Qd7+rqw2QfGmYlBQBWXXrzXerdrQ+XhPc8l83pYLTKXyu3IKDqfYBAVBAFihBjK2DpYn6F164A==",
+			"session_key":"9mzdWW2H1tCdeM6MCEY8Q7+rqw2QfGmYlBQBWXXrzXerdrQ+XhPc8l83pYLTKXyu3IKDqfYBAVBAFihBjK2DpYn6F164A==",
 			"session_secret":"e4ed786fb22605555d00423d99063dae"
 		}
 	*/
