@@ -22,10 +22,10 @@ import (
 
 //var (
 //	//商户端
-//	AppID        = "rUEYM7eiaz6tQrBdrdHeW9"
-//	AppKey       = "QRNHfwOfJu95TR7ZHvVZ2"
-//	AppSecret    = "dR5apw97c1A014TE9y2bE6"
-//	MasterSecret = "SsODKzu2Hp87DYwPwWrka7"
+//	AppID        = "rUEYM7eiazrBdrdHeW9"
+//	AppKey       = "QRNHfwOfJu95ZHvVZ2"
+//	AppSecret    = "dR5apw97c1ATE9y2bE6"
+//	MasterSecret = "SsODKzu2Hp8wPwWrka7"
 //)
 
 /*
