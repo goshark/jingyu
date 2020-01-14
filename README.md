@@ -1,37 +1,17 @@
-# archives
+# The Api Service for an App.
 
 #### 介绍
 档案 活动 报名
 
 #### 软件架构
-软件架构说明
+该项目用完全使用GF（GOFRAME）模块化框架开发，(学习用)项目内集成部分第三方包，方便使用和学习！
+该项目为移动端APP提供API独立服务，路由使用GF提供的对象注册的方式进行注册，项目结构比较简洁，暂未设计独立的业务处理层，model层，以及模板引擎独立渲染;
+web服务使用多服务开发模式编写,
+内设计到:集成百度语音合成voice_API，UuidV4生成器，jwtoken生成，gqueue队列，sms阿里短信，个推第三方推送至移动端，多文件上传,api返回格式化等包供学习交流
 
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### 参与贡献
+本项目为实际业务项目，考虑以学习和交流为目的进行开源。屏蔽数据库，业务服务IP
+非常感谢GF作者的开源项目以及其贡献者！使本项目在预期范围内开发完成，特此开源以供大家学习！
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
