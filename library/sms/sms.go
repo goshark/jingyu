@@ -22,7 +22,7 @@ const (
 
 
 const (
-	SIGN  = "景煜旅游"
+	SIGN  = "测试签名"
 	//缓存前缀
 	LOGIN_TYPE = "login_code_"
 	LICENSE_TYPE = "license_code_"
@@ -42,8 +42,8 @@ type SmsSendApi struct{
 
 func New() *SmsSendApi{
 	return &SmsSendApi{
-		AccessKey_ID:"LTAI4FhoXWs4p1V1bN5kkkSe",
-		Access_Key_Secret:"g326dltQZZC5NjwMSO9wQsOExsO1ll",
+		AccessKey_ID:"LTAI4FV1bN5kkkSe",//有删减
+		Access_Key_Secret:"g326dltQZjwMSO9wQsOEO1ll",////有删减
 		EffectiveTime:1,
 		VerificationCode:"000000",
 	}
