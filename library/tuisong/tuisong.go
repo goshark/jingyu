@@ -17,16 +17,9 @@ import (
 	"github.com/gogf/gf/util/grand"
 )
 
-//填写对应客户端应用配置
 
 
-//var (
-//	//商户端
-//	AppID        = "rUEYM7eiazrBdrdHeW9"
-//	AppKey       = "QRNHfwOfJu95ZHvVZ2"
-//	AppSecret    = "dR5apw97c1ATE9y2bE6"
-//	MasterSecret = "SsODKzu2Hp8wPwWrka7"
-//)
+
 
 /*
 	推送配置
@@ -448,7 +441,7 @@ func getAuthToken(token_name string) interface{} {
 		return nil
 	}
 	defer r.Close()
-	//成功结果{"result":"ok","expire_time":"1568875773358","auth_token":"98b74e881a76dd5bbc98ec6cab8e650dfa33f24b1313507ba19c8947a320d7f5"}
+	//成功结果{"result":"ok","expire_time":"1568875773358","auth_token":""}
 	resp := gjson.New(r.ReadAll()).ToMap()
 
 	if resp["result"] == "ok" { //存入缓存存到过期时间前1秒
