@@ -42,8 +42,8 @@ type SmsSendApi struct{
 
 func New() *SmsSendApi{
 	return &SmsSendApi{
-		AccessKey_ID:"LTAI4FV1bN5kkkSe",//有删减
-		Access_Key_Secret:"g326dltQZjwMSO9wQsOEO1ll",////有删减
+		AccessKey_ID:"",//有删减
+		Access_Key_Secret:"",////有删减
 		EffectiveTime:1,
 		VerificationCode:"000000",
 	}
